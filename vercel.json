@@ -1,23 +1,11 @@
 {
-  "cleanUrls": true,
-  "headers": [
-    {
-      "source": "/public/images/herosection/(.*)",
-      "headers": [
+    "routes": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+            "src": "/",
+            "dest": "/"
         }
-      ]
-    },
-    {
-      "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    }
-  ]
+    ]
+
+     "src": "/test",
+    "dest": "/"
 }

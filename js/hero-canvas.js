@@ -15,7 +15,7 @@
 (function () {
   'use strict';
 
-  const TOTAL_FRAMES = 300;
+  const TOTAL_FRAMES = 200;
   const FRAME_PREFIX = '/public/images/herosection/ezgif-frame-';
   const FRAME_EXT = '.jpg';
 
