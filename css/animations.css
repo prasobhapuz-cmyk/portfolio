@@ -1,0 +1,92 @@
+/* ==========================================================================
+   PRASOBH KUMAR - ANIMATIONS & SCROLL REVEAL STYLESHEET
+   ========================================================================== */
+
+/* --- 1. Keyframe Definitions --- */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--text-primary); }
+}
+
+@keyframes pulse-glow {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes float-subtle-1 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(-1deg); }
+}
+
+@keyframes float-subtle-2 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-9px) rotate(1deg); }
+}
+
+@keyframes light-sweep {
+  0% {
+    transform: translateX(-150%) skewX(-25deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(250%) skewX(-25deg);
+    opacity: 0;
+  }
+}
+
+@keyframes breathe-border {
+  0%, 100% { border-color: rgba(255, 255, 255, 0.15); }
+  50% { border-color: rgba(255, 255, 255, 0.38); }
+}
+
+/* --- 2. Scroll Reveal & Parallax Classes --- */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.94);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-scale.revealed {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+
+/* Floating Elements */
+.float-badge-1 {
+  animation: float-subtle-1 5s ease-in-out infinite;
+}
+
+.float-badge-2 {
+  animation: float-subtle-2 6s ease-in-out infinite 0.5s;
+}

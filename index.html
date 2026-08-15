@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Prasobh Kumar | Mechanical, Automobile & Aerospace Engineering</title>
+  <meta name="title" content="Prasobh Kumar | Mechanical, Automobile & Aerospace Engineering">
+  <meta name="description" content="Personal portfolio of Prasobh Kumar, Mechanical Engineering student at Government Engineering College Thrissur (GECT). Specializing in Automobile dynamics, Aerospace propulsion, Aeronautical UAV design, and precision 3D CAD.">
+  <meta name="keywords" content="Prasobh Kumar, Mechanical Engineering, Automobile Engineering, Aerospace Engineering, Aeronautical, GEC Thrissur, Christ Nagar School, Loyola School, CAD, SolidWorks, Trivandrum, Kerala">
+  <meta name="author" content="Prasobh Kumar">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prasobh Kumar | Mechanical, Automobile & Aerospace Engineering">
+  <meta property="og:description" content="Explore mechanical CAD models, automobile transmissions, aerospace propulsion, and aeronautical aerodynamics by Prasobh Kumar.">
+  <meta property="og:image" content="assets/images/prasobh-portrait.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23000'/><text x='50' y='65' font-size='48' font-family='-apple-system, sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PK</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress-bar"></div>
+
+  <!-- Apple-Inspired Frosted Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo with Photo Emblem -->
+      <a href="#home" class="brand-logo" aria-label="Prasobh Kumar Homepage">
+        <img src="assets/images/prasobh-portrait.jpg" alt="Prasobh Kumar" class="logo-avatar-micro">
+        <span class="logo-text">Prasobh<span class="logo-dot">.</span></span>
+        <span class="logo-dept">MECH // GECT</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Overview</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Capabilities</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#future-ideas" class="nav-link">Innovations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Theme Switcher Button -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <i class="ri-sun-line"></i>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="nav-cta-btn">
+          <span>Connect</span>
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Open Navigation Menu">
+          <i class="ri-menu-4-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       ✨ PINNED SCROLL HERO SEQUENCE (Frames 001-300 + Narrative Stages)
+       ========================================================================== -->
+  <section class="hero-scroll-container" id="home">
+    <div class="hero-sticky-canvas-container" id="hero-sticky-canvas-container">
+      
+      <!-- High-Performance Frame Canvas (300 Frames) -->
+      <canvas id="hero-scroll-canvas"></canvas>
+      
+      <!-- Cinematic Vignette Overlay -->
+      <div class="hero-gradient-overlay"></div>
+
+      <!-- Synchronized Clean Typography (No Boxes, Pure Text) -->
+      <div class="hero-narrative-container">
+        
+        <!-- PHASE 1: Introduction (0% - 22% Scroll) -->
+        <div class="hero-narrative-card active" id="hero-phase-1">
+          <div class="container">
+            <div class="hero-clean-text-wrap">
+              <h1 class="hero-clean-headline">
+                Prasobh Kumar
+              </h1>
+              <p class="hero-clean-subline">
+                Mechanical, Automobile & Aerospace Engineering
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PHASE 2: 3D Turbomachinery (26% - 48% Scroll) -->
+        <div class="hero-narrative-card" id="hero-phase-2">
+          <div class="container">
+            <div class="hero-clean-text-wrap">
+              <h2 class="hero-clean-headline">
+                Aerospace Propulsion & 3D CAD
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- PHASE 3: Aerodynamics (52% - 74% Scroll) -->
+        <div class="hero-narrative-card" id="hero-phase-3">
+          <div class="container hero-clean-right">
+            <div class="hero-clean-text-wrap">
+              <h2 class="hero-clean-headline">
+                Aerodynamics & Vehicle Dynamics
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- PHASE 4: End of Animation (78% - 100% Scroll) -->
+        <div class="hero-narrative-card" id="hero-phase-4">
+          <div class="container hero-clean-center">
+            <div class="hero-clean-text-wrap">
+              <h2 class="hero-clean-headline hero-clean-grand">
+                Engineering Beyond Boundaries
+              </h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Minimalist Telemetry HUD Readout -->
+      <div class="hero-scroll-hud-bar" id="hero-scroll-hud-bar">
+        <div class="hud-stage-pill" id="hud-stage-text">STAGE 01 // 2D CAD SCHEMATIC</div>
+        <div class="hud-scroll-cue">
+          <span>Scroll to explore mechanism</span>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+        <div class="hud-frame-counter">
+          <span id="hud-frame-text">FRAME: 001/300</span> • <span id="hud-progress-text">0%</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-user-3-line"></i> Profile</span>
+        <h2 class="section-title">About Prasobh Kumar</h2>
+        <p class="section-subtitle">Dedicated engineering undergraduate blending mathematical rigor, automotive mechanics, and aerospace enthusiasm.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-visual-col reveal-on-scroll">
+          <!-- Editorial Studio Portrait Frame with Parallax -->
+          <div class="about-portrait-frame" id="about-portrait-frame">
+            <span class="about-corner-tag">// PRASOBH KUMAR</span>
+            <img src="assets/images/prasobh-portrait.jpg" alt="Prasobh Kumar" class="about-portrait-img">
+            
+            <div class="portrait-vignette-overlay"></div>
+            <div class="portrait-shine-effect"></div>
+
+            <div class="about-floating-badge float-badge-1">
+              <i class="ri-compasses-2-line floating-badge-icon"></i>
+              <div class="floating-badge-text">
+                <div class="title">Engineering Precision</div>
+                <div class="sub">Mechanical • Auto • Aero</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-col reveal-on-scroll delay-2">
+          <p class="about-bio-lead">
+            "Engineering is the relentless pursuit of perfection in motion, structure, and physics."
+          </p>
+          <p class="about-bio-text">
+            I am currently in my 1st year pursuing a Bachelor of Technology in <strong>Mechanical Engineering</strong> at <strong>Government Engineering College Thrissur (GECT)</strong>. Born and raised in <strong>Trivandrum, Kerala</strong>, I completed my Class 10 education at <strong>Loyola School, Mukundara</strong> and Class 12 at <strong>Christ Nagar School, Kuchapuram</strong>.
+          </p>
+          <p class="about-bio-text">
+            My engineering curiosities span across <strong>Automobile Engineering</strong> (powertrain kinematics, chassis dynamics, active aerodynamics), <strong>Aerospace Propulsion</strong> (gas turbine cycles, rocket thrust chambers), and <strong>Aeronautical UAV Systems</strong> (winglet efficiency, low-Reynolds flow, autonomous stability).
+          </p>
+
+          <!-- Core Pillars -->
+          <div class="about-pillars-grid">
+            <div class="pillar-card">
+              <i class="ri-tools-line pillar-icon"></i>
+              <h4>Mechanical & CAD</h4>
+              <p>Parametric 3D assemblies, orthographic blueprints, and GD&T tolerances.</p>
+            </div>
+            <div class="pillar-card">
+              <i class="ri-car-line pillar-icon"></i>
+              <h4>Automobile Engineering</h4>
+              <p>Vehicle dynamics, epicyclic gear transmissions, and active aero surfaces.</p>
+            </div>
+            <div class="pillar-card">
+              <i class="ri-flight-takeoff-line pillar-icon"></i>
+              <h4>Aerospace & Aero</h4>
+              <p>Turbofan compressor stages, NACA airfoils, and boundary layer airflow.</p>
+            </div>
+            <div class="pillar-card">
+              <i class="ri-cpu-line pillar-icon"></i>
+              <h4>Robotics & Sensors</h4>
+              <p>Inverse kinematics, microcontrollers, and precision servo actuation.</p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#contact" class="btn-primary">
+              <span>Get In Touch</span>
+              <i class="ri-mail-send-line"></i>
+            </a>
+            <a href="#education" class="btn-secondary">
+              <span>View Academic Timeline</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-graduation-cap-line"></i> Academics</span>
+        <h2 class="section-title">Education & Academic Journey</h2>
+        <p class="section-subtitle">Academic foundations from Loyola School Mukundara and Christ Nagar School Kuchapuram to Government Engineering College Thrissur.</p>
+      </div>
+
+      <!-- Timeline Container (Dynamically populated from data.js) -->
+      <div class="timeline" id="education-timeline-list"></div>
+    </div>
+  </section>
+
+  <!-- Skills & Competencies Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-tools-line"></i> Capabilities</span>
+        <h2 class="section-title">Technical Capabilities</h2>
+        <p class="section-subtitle">A balanced toolkit spanning CAD design, automotive & aerospace sciences, coding, and hands-on workshop fabrication.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="skills-nav-tabs reveal-on-scroll" id="skills-nav-tabs"></div>
+
+      <!-- Skills Cards Grid (Dynamically populated from data.js) -->
+      <div class="skills-category-container" id="skills-category-container"></div>
+    </div>
+  </section>
+
+  <!-- Projects & CAD Showcase Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-folder-open-line"></i> Showcase</span>
+        <h2 class="section-title">Featured Projects & CAD Models</h2>
+        <p class="section-subtitle">Explore mechanical design assemblies, automobile transmissions, aeronautical simulations, and computational solvers.</p>
+      </div>
+
+      <!-- Project Category Filter Bar -->
+      <div class="projects-filter-bar reveal-on-scroll">
+        <button class="project-filter-btn active" data-filter="all">All Disciplines</button>
+        <button class="project-filter-btn" data-filter="aerospace">Aerospace & Aero</button>
+        <button class="project-filter-btn" data-filter="automobile">Automobile Engineering</button>
+        <button class="project-filter-btn" data-filter="mechanical">Mechanical & CAD</button>
+        <button class="project-filter-btn" data-filter="computational">Computational & Solvers</button>
+      </div>
+
+      <!-- Projects Grid (Dynamically populated from data.js) -->
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- Future Ideas & Innovation Roadmap Section -->
+  <section class="section section-alt" id="future-ideas">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-lightbulb-line"></i> Roadmap</span>
+        <h2 class="section-title">Future Ideas & Innovation Roadmap</h2>
+        <p class="section-subtitle">Upcoming concepts, propulsion prototypes, active automotive aero, and advanced UAV flight studies.</p>
+      </div>
+
+      <!-- Future Ideas Grid (Dynamically populated from data.js) -->
+      <div class="future-ideas-grid" id="future-ideas-grid"></div>
+
+      <!-- Collaboration Callout -->
+      <div class="future-collab-cta reveal-on-scroll">
+        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Have an engineering project or collaboration in mind?</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.75rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+          I am eager to collaborate on mechanical design challenges, student SAE/Formula competitions, aerospace research papers, and technical hackathons.
+        </p>
+        <a href="#contact" class="btn-primary">
+          <span>Let's Collaborate</span>
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag"><i class="ri-chat-1-line"></i> Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Connect directly via WhatsApp, email, or Instagram for project discussions, academic opportunities, and collaborations.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Left: Direct Interactive Contact Cards -->
+        <div class="contact-info-col reveal-on-scroll">
+          <!-- Email Card -->
+          <div class="contact-card-item">
+            <div class="contact-icon-box">
+              <i class="ri-mail-line"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Email</h4>
+              <p>prasobhapuz@gmail.com</p>
+              <div class="contact-quick-actions">
+                <a href="mailto:prasobhapuz@gmail.com" class="btn-copy-chip">
+                  <i class="ri-mail-send-line"></i> Compose
+                </a>
+                <button class="btn-copy-chip" onclick="window.copyToClipboard('prasobhapuz@gmail.com', 'Email Address')">
+                  <i class="ri-file-copy-line"></i> Copy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="contact-card-item">
+            <div class="contact-icon-box">
+              <i class="ri-whatsapp-line"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>WhatsApp</h4>
+              <p>+91 6282576450</p>
+              <div class="contact-quick-actions">
+                <a href="https://wa.me/916282576450?text=Hi%20Prasobh,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="btn-copy-chip">
+                  <i class="ri-external-link-line"></i> Direct Chat
+                </a>
+                <button class="btn-copy-chip" onclick="window.copyToClipboard('+916282576450', 'WhatsApp Number')">
+                  <i class="ri-file-copy-line"></i> Copy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram Card -->
+          <div class="contact-card-item">
+            <div class="contact-icon-box">
+              <i class="ri-instagram-line"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Instagram</h4>
+              <p>@iprasobh</p>
+              <div class="contact-quick-actions">
+                <a href="https://instagram.com/iprasobh" target="_blank" class="btn-copy-chip">
+                  <i class="ri-external-link-line"></i> Profile
+                </a>
+                <button class="btn-copy-chip" onclick="window.copyToClipboard('iprasobh', 'Instagram Handle')">
+                  <i class="ri-file-copy-line"></i> Copy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="contact-card-item">
+            <div class="contact-icon-box">
+              <i class="ri-map-pin-user-line"></i>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Location & College</h4>
+              <p><strong>Home:</strong> Trivandrum, Kerala, India</p>
+              <p><strong>Campus:</strong> Govt. Engineering College Thrissur (GECT)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Contact Form -->
+        <div class="contact-form-card reveal-on-scroll delay-2">
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.4rem;">Send a Message</h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.75rem;">
+            Fill in the details below to send an inquiry directly to my inbox.
+          </p>
+
+          <form id="portfolio-contact-form">
+            <div class="form-group-row">
+              <div class="form-field">
+                <label for="contact-name">Full Name *</label>
+                <input type="text" id="contact-name" placeholder="Your Name" required>
+              </div>
+              <div class="form-field">
+                <label for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" placeholder="your.email@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" placeholder="e.g. Mechanical / Aerospace Collaboration">
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" placeholder="Hi Prasobh, I'd like to discuss..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit-form">
+              <span>Send Message</span>
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Deep-Dive Modal Overlay -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Modal">
+        <i class="ri-close-line"></i>
+      </button>
+      <div id="modal-dynamic-content">
+        <!-- Populated via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll to Top" title="Back to Top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Apple-Style Minimal Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-col footer-brand">
+          <a href="#home" class="brand-logo">
+            <img src="assets/images/prasobh-portrait.jpg" alt="Prasobh Kumar" class="logo-avatar-micro">
+            <span class="logo-text">Prasobh Kumar</span>
+          </a>
+          <p>
+            Mechanical Engineering undergraduate at Government Engineering College Thrissur (GECT), exploring Automobile Dynamics, Aerospace Propulsion, and Aeronautical UAV Systems.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/916282576450" target="_blank" class="social-icon-btn" title="WhatsApp" aria-label="WhatsApp">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="mailto:prasobhapuz@gmail.com" class="social-icon-btn" title="Email" aria-label="Email">
+              <i class="ri-mail-line"></i>
+            </a>
+            <a href="https://instagram.com/iprasobh" target="_blank" class="social-icon-btn" title="Instagram" aria-label="Instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Overview</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education Timeline</a></li>
+            <li><a href="#skills">Capabilities</a></li>
+            <li><a href="#projects">Projects & CAD</a></li>
+            <li><a href="#future-ideas">Innovations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Connect</h4>
+          <ul class="footer-links-list">
+            <li><a href="mailto:prasobhapuz@gmail.com"><i class="ri-mail-line"></i> prasobhapuz@gmail.com</a></li>
+            <li><a href="https://wa.me/916282576450" target="_blank"><i class="ri-whatsapp-line"></i> +91 6282576450</a></li>
+            <li><a href="https://instagram.com/iprasobh" target="_blank"><i class="ri-instagram-line"></i> @iprasobh</a></li>
+            <li><span><i class="ri-map-pin-line"></i> Trivandrum & Thrissur, Kerala</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Prasobh Kumar. Designed with Apple-inspired monochrome precision.</p>
+        <p>GEC Thrissur • Trivandrum, Kerala, India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/hero-canvas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

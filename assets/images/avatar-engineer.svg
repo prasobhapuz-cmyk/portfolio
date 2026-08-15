@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glowRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="200" fill="url(#avatarGrad)"/>
+
+  <!-- Concentric Aerospace Compass Marks -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#glowRing)" stroke-width="3"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="rgba(56,189,248,0.3)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+
+  <!-- Mechanical Engineering & Aerospace Emblem Silhouette -->
+  <!-- Gear in background -->
+  <g transform="translate(200, 200)" opacity="0.25">
+    <circle r="120" fill="none" stroke="#38bdf8" stroke-width="4"/>
+    <circle r="90" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Silhouette Figure (Young Engineer with Blueprint / Caliper vibes) -->
+  <g transform="translate(200, 200)">
+    <!-- Shoulders / Torso with crisp blazer/jacket line -->
+    <path d="M -90 140 C -80 70, -50 40, -30 25 L 30 25 C 50 40, 80 70, 90 140 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5"/>
+    <polygon points="-25,25 0,85 25,25 0,35" fill="#3b82f6"/>
+    <!-- Collar & Tie/Lapel -->
+    <path d="M -30 25 L 0 70 L 30 25" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+    <!-- Neck -->
+    <rect x="-18" y="-10" width="36" height="38" fill="#334155"/>
+
+    <!-- Head & Hair -->
+    <ellipse cx="0" cy="-45" rx="36" ry="44" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Modern stylish hair -->
+    <path d="M -38 -55 C -35 -95, 25 -100, 38 -65 C 38 -50, 30 -40, 25 -40 C 20 -70, -25 -70, -38 -55 Z" fill="#0f172a"/>
+
+    <!-- Aerospace HUD Monocle / Caliper Crosshair overlay -->
+    <circle cx="16" cy="-45" r="14" fill="none" stroke="#f59e0b" stroke-width="1.8"/>
+    <line x1="2" y1="-45" x2="30" y2="-45" stroke="#f59e0b" stroke-width="1.2"/>
+    <line x1="16" y1="-59" x2="16" y2="-31" stroke="#f59e0b" stroke-width="1.2"/>
+
+    <!-- Initials Badge -->
+    <rect x="-35" y="100" width="70" height="24" rx="12" fill="#020617" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="0" y="116" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8" text-anchor="middle">PK // MECH</text>
+  </g>
+</svg>
