@@ -3,9 +3,9 @@ $git = "C:\Program Files\Git\cmd\git.exe"
 # 1. Set Remote URL
 $remotes = & $git remote
 if ($remotes -contains "origin") {
-    & $git remote set-url origin https://github.com/prasobhapuz-cmyk/prasobh-kumar-portfolio.git
+    & $git remote set-url origin git@github.com:prasobhapuz-cmyk/prasobh-kumar-portfolio.git
 } else {
-    & $git remote add origin https://github.com/prasobhapuz-cmyk/prasobh-kumar-portfolio.git
+    & $git remote add origin git@github.com:prasobhapuz-cmyk/prasobh-kumar-portfolio.git
 }
 
 Write-Host "Configured Remotes:"
