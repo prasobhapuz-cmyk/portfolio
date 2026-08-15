@@ -1,11 +1,11 @@
-# Windows thumbnails / OS files
+# OS / Editor files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
-# Temporary helper scripts
-find_git.ps1
-check_img.ps1
-setup_git.ps1
+# Scripts & Logs
+*.ps1
+*.log
+deployed_url.txt
