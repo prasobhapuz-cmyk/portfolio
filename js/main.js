@@ -388,24 +388,15 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderProjectCards(projectsList) {
     if (!projectsGrid) return;
     projectsGrid.innerHTML = projectsList.map((p, idx) => `
-      <div class="project-card reveal-on-scroll delay-${(idx % 3) + 1}">
-        <div class="project-image-wrap">
-          <img src="${p.image}" alt="${p.title}" class="project-thumb-img" loading="lazy">
-          <span class="project-badge-pill">${p.badge}</span>
+      <div class="project-card project-card-standard reveal-on-scroll delay-${(idx % 3) + 1}">
+        <div class="project-placeholder-icon-wrap">
+          <i class="ri-draft-line"></i>
+          <span class="project-badge-pill">Yet to be added</span>
         </div>
         <div class="project-body">
           <div class="project-category-meta">${p.categoryLabel}</div>
-          <h3 class="project-card-title">${p.title}</h3>
-          <p class="project-summary">${p.summary}</p>
-          <div class="project-tags-row">
-            ${p.tags.map(t => `<span class="project-tag-pill">${t}</span>`).join('')}
-          </div>
-          <div class="project-footer-actions">
-            <button class="btn-project-view" onclick="window.openProjectModal('${p.id}')">
-              <span>View Specifications</span>
-              <i class="ri-arrow-right-line"></i>
-            </button>
-          </div>
+          <h3 class="project-card-title standard-font-title">Yet to be added</h3>
+          <p class="project-summary standard-font-text">Yet to be added</p>
         </div>
       </div>
     `).join('');
